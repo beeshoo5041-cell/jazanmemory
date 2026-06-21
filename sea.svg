@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 850">
+<defs>
+<linearGradient id="sky" x1="0" x2="1"><stop stop-color="#173f31"/><stop offset=".42" stop-color="#d8c286"/><stop offset="1" stop-color="#0c8db2"/></linearGradient>
+<radialGradient id="paper" cx=".50" cy=".62" r=".42"><stop stop-color="#fff8e8"/><stop offset=".56" stop-color="#fff8e8" stop-opacity=".76"/><stop offset="1" stop-color="#fff8e8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1800" height="850" fill="url(#sky)"/>
+<path d="M0 485 L140 330 L260 400 L395 180 L555 420 L720 305 L900 520 L0 760Z" fill="#0f3328"/>
+<path d="M60 455 L165 345 L165 530 L60 530Z" fill="#9b753e" opacity=".72"/>
+<path d="M230 490 L350 410 L350 545 L230 545Z" fill="#8b6a3a" opacity=".78"/>
+<path d="M1160 500 C1290 360 1510 330 1800 260 L1800 850 L1040 850Z" fill="#057fa4" opacity=".86"/>
+<path d="M1300 395 C1385 330 1480 380 1455 470 C1365 500 1290 468 1300 395Z" fill="#2f693b"/>
+<path d="M0 650 Q280 575 540 630 T1080 625 T1800 645 L1800 850 L0 850Z" fill="#d4b36f" opacity=".62"/>
+<path d="M0 705 Q300 635 600 690 T1180 675 T1800 705 L1800 850 L0 850Z" fill="#f4e8ca" opacity=".72"/>
+<circle cx="900" cy="500" r="365" fill="url(#paper)"/>
+<g fill="#60451f" opacity=".42"><path d="M70 680c140-85 260-25 390-110"/><path d="M1280 680c150-85 270-25 420-120"/></g>
+</svg>
