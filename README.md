@@ -1,19 +1,19 @@
-# ذاكرة جازان — Jazan Memory
+# ذاكرة جازان
 
-موقع ثابت جاهز للرفع على GitHub Pages ثم Cloudflare Pages.
+نسخة مسطحة بدون مجلدات.
 
-- بدون PDF
-- صور JPG فقط
-- عدد صور الوثائق: 45
-- الملفات كلها في الجذر مباشرة لتسهيل الرفع
+كل الملفات في الجذر مباشرة:
+- index.html
+- documents.html
+- board.html
+- admin.html
+- style.css
+- data.js
+- main.js
+- admin.js
+- الصور والفيديوهات
 
-## الرفع على GitHub
-فكي الضغط، ثم ارفعي محتويات المجلد مباشرة وليس ملف ZIP.
+كلمة مرور لوحة التحكم: 1351
 
-## GitHub Pages
-Settings → Pages → Deploy from branch → main / root → Save.
-
-## Cloudflare Pages
-Pages → Create project → Connect to Git → اختاري المستودع.
-Build command: فارغ
-Output directory: / أو فارغ
+ملاحظة:
+هذه النسخة مناسبة إذا كان المطلوب رفع كل ملف يدويًا خطوة بخطوة بدون مجلدات.
