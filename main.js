@@ -67,9 +67,9 @@ function renderBoardPage(){
 function openItem(id){
   const x=byId(id); if(!x) return;
   const media = x.media==='video' && x.src ? `<video src="${x.src}" controls></video>` : (x.src?`<img src="${x.src}" alt="${x.title}">`:'');
+  const pdfLink = x.pdf ? `<p><a class="btn dark" href="${x.pdf}" target="_blank" rel="noopener">فتح الملف الأصلي PDF</a></p>` : '';
   $('#modalTitle').textContent=x.title;
-  $('#modalBody').innerHTML=`${media}<p class="modalMeta"><b>التصنيف:</b> ${x.category||'-'}<br><b>النوع:</b> ${x.type||'-'}<br><b>التاريخ:</b> ${x.year||'-'}<br><b>الموقع:</b> ${x.place||'-'}<br><b>الكاتب / المصدر:</b> ${x.author||'-'}</p><p class="modalText">${(x.desc||'').replace(/
-/g,'<br>')}</p>`;
+  $('#modalBody').innerHTML=`${media}${pdfLink}<p class="modalMeta"><b>التصنيف:</b> ${x.category||'-'}<br><b>النوع:</b> ${x.type||'-'}<br><b>التاريخ:</b> ${x.year||'-'}<br><b>الموقع:</b> ${x.place||'-'}<br><b>المصدر:</b> ${x.author||'-'}</p><p class="modalText">${(x.desc||'').replace(/\n/g,'<br>')}</p>`;
   $('#modal').style.display='flex';
 }
 function closeModal(){ if($('#modal')) $('#modal').style.display='none'; }
